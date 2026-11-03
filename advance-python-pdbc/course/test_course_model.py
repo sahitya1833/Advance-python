@@ -14,7 +14,7 @@ def test_add():
 
 
 
-test_add()
+# test_add()
 
 def test_update():
     data = {}

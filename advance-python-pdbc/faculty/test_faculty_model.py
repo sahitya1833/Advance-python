@@ -4,15 +4,15 @@ import datetime
 
 def test_add():
     data = {}
-    data['first_name'] = 'sahtiya'
-    data['last_name'] = 'kanojiya'
-    data['email'] = 'sahitya@gmail.com'
-    data['password'] = 'sah1234'
-    data['address'] = 'bhopal'
+    data['first_name'] = 'rahul'
+    data['last_name'] = 'sharma'
+    data['email'] = 'rahuls@gmail.com'
+    data['password'] = 'rahul1234'
+    data['address'] = 'indore'
     data['gender'] = 'male'
-    data['dob'] = datetime.date(2004, 3, 18)
-    data['college_id'] = 1
-    data['college_name'] = 'ips'
+    data['dob'] = datetime.date(2001, 6, 18)
+    data['college_id'] = 2
+    data['college_name'] = 'sage'
     data['course_id'] = 2
     data['course_name'] = 'corporate python'
     data['subject_id'] = 1
@@ -73,6 +73,7 @@ def test_search():
     data['first_name'] = 'S'
     model = FacultyModel()
     list = model.search(data)
+
 
 
 # test_search()
